@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/Fix-Lag.lua.txt"))()
 do
   ply = game.Players
   plr = ply.LocalPlayer
@@ -1316,7 +1315,7 @@ end
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
 local Window = redzlib:MakeWindow({
-    Title = "nyann os fram",
+    Title = "nyann os",
     SubTitle = "by real nyann",
     SaveFolder = "oknaiget.json"
 })
@@ -11994,7 +11993,7 @@ end
 StartMainLoops()
 
 Window:Notify({
-  Title = "nyann os fram ",
+  Title = "nyann os",
   Content = "Loading...",
   Image = "rbxassetid://94678517792779",
   Duration = 5
