@@ -1,0 +1,61 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Open menu",
+         Animation = "nyann os"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "nyann get key",
+        KeyLink = "",
+        Keys = {"AEEhyV01TkiAkZErqZX GN-h4f"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=10734950309",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Thông tin"})
+     local Tab2o = MakeTab({Name = "Select menu"})
+     
+------- BUTTON
+
+    AddButton(Tab1o, {
+     Name = "Discord",
+    Callback = function()
+	  setclipboard("https://discord.gg/k6QMSs2n3")
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Facebook",
+    Callback = function()
+	  setclipboard("https://www.facebook.com/share/1EB6piCehd/")
+  end
+  })
+    AddButton(Tab2o, {
+     Name = "nyann os",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/nyanndzvkl/nyannosfram/refs/heads/main/fram%20test.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "nyann osv2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/nyanndzvkl/test/refs/heads/main/SourceSkibidi%20(2).txt"))()
+  end
+  })
